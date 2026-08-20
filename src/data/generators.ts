@@ -121,4 +121,33 @@ export const generatorCategories: GeneratorCategory[] = [
     },
   ],
 },
+{
+  name: "Items",
+  generators: [
+    {
+      name: "Magic Item",
+      path: "/generators/magic-item",
+    },
+    {
+      name: "Mundane Treasure",
+      path: "/generators/mundane-treasure",
+    },
+    {
+      name: "Potion",
+      path: "/generators/potion",
+    },
+    {
+      name: "Cursed Item",
+      path: "/generators/cursed-item",
+    },
+    {
+      name: "Weapon",
+      path: "/generators/weapon",
+    },
+    {
+      name: "Trinket",
+      path: "/generators/trinket",
+    },
+  ],
+},
 ];

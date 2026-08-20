@@ -1,0 +1,47 @@
+export const weaponTypes = [
+  "longsword",
+  "shortsword",
+  "dagger",
+  "battleaxe",
+  "warhammer",
+  "mace",
+  "spear",
+  "halberd",
+  "rapier",
+  "scimitar",
+  "greatsword",
+  "bow",
+  "crossbow",
+  "staff",
+  "flail",
+];
+
+export const weaponAppearances = [
+  "with a blade etched with tiny runes",
+  "with a blackened steel blade",
+  "decorated with a silver wolf's head",
+  "with a strangely lightweight construction",
+  "covered in intricate geometric patterns",
+  "with a grip wrapped in faded red leather",
+  "bearing the crest of an unknown warrior",
+  "with a blade that reflects no light",
+  "decorated with a small blue gemstone",
+  "with an unusually ornate hilt",
+  "showing signs of having been repaired many times",
+  "that appears completely ordinary at first glance",
+];
+
+export const weaponProperties = [
+  "it becomes warm whenever danger is near",
+  "it makes a faint ringing sound when drawn",
+  "it never seems to become dull",
+  "it leaves a faint trail of sparks when swung",
+  "it becomes noticeably heavier when held by someone with hostile intentions",
+  "it seems to vibrate when pointed toward a particular direction",
+  "it bears the name of a forgotten warrior",
+  "it remains perfectly balanced regardless of how it is held",
+  "it becomes cold whenever undead are nearby",
+  "it occasionally whispers a single word",
+  "it seems to recognize its previous wielder",
+  "it cannot be stained by blood",
+];
