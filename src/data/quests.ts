@@ -1,0 +1,60 @@
+export const questObjectives = [
+  "recover",
+  "find",
+  "rescue",
+  "escort",
+  "investigate",
+  "protect",
+  "destroy",
+  "deliver",
+  "retrieve",
+  "capture",
+  "expose",
+  "recover stolen",
+];
+
+export const questTargets = [
+  "a stolen family heirloom",
+  "a missing merchant",
+  "an ancient artifact",
+  "a kidnapped noble",
+  "a lost expedition",
+  "a dangerous criminal",
+  "a missing shipment",
+  "a mysterious stranger",
+  "a legendary weapon",
+  "a valuable map",
+  "a forgotten relic",
+  "a missing child",
+  "a dangerous creature",
+  "a stolen magical item",
+  "a sealed letter",
+];
+
+export const questLocations = [
+  "an abandoned temple",
+  "a ruined fortress",
+  "a nearby forest",
+  "a forgotten mine",
+  "an old cemetery",
+  "a remote village",
+  "a dangerous mountain pass",
+  "a ruined tower",
+  "an abandoned manor",
+  "a hidden cave",
+  "an underground ruin",
+  "a forgotten battlefield",
+];
+
+export const questComplications = [
+  "but someone else is searching for the same thing",
+  "but the person who hired you is hiding something important",
+  "but the target does not want to be found",
+  "but the situation is far more dangerous than anyone expected",
+  "but completing the task will anger a powerful faction",
+  "but someone in the party has a personal connection to the situation",
+  "but the obvious solution may cause an even greater problem",
+  "but the target is protected by an unexpected ally",
+  "but the truth is very different from the story you were told",
+  "but time is running out",
+];

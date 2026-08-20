@@ -84,4 +84,41 @@ export const generatorCategories: GeneratorCategory[] = [
     },
   ],
 },
+{
+  name: "Adventure",
+  generators: [
+    {
+      name: "Quest Generator",
+      path: "/generators/quest-generator",
+    },
+    {
+      name: "Plot Hook Generator",
+      path: "/generators/plot-hook-generator",
+    },
+    {
+      name: "Random Encounter",
+      path: "/generators/random-encounter",
+    },
+    {
+  name: "Dungeon Room",
+  path: "/generators/dungeon-room",
+},
+  {
+      name: "Dungeon Trap",
+      path: "/generators/dungeon-trap",
+    },
+    {
+      name: "Dungeon Puzzle",
+      path: "/generators/dungeon-puzzle",
+    },
+    {
+      name: "Wilderness Encounter",
+      path: "/generators/wilderness-encounter",
+    },
+    {
+      name: "Urban Encounter",
+      path: "/generators/urban-encounter",
+    },
+  ],
+},
 ];
