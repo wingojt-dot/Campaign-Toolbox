@@ -9,6 +9,17 @@ export const treasureTypes = [
   "a small clay jar",
   "a metal coffer",
   "a collection of loose valuables",
+
+  "a locked jewelry box",
+  "an ornate wooden case",
+  "a weathered wooden crate",
+  "a sealed ceramic container",
+  "a heavy iron chest",
+  "a velvet-lined box",
+  "an old military supply chest",
+  "a decorated traveling case",
+  "a collection of valuables wrapped in cloth",
+  "a small hidden compartment",
 ];
 
 export const treasureContents = [
@@ -27,6 +38,22 @@ export const treasureContents = [
   "a beautifully decorated ceremonial mask",
   "a bundle of valuable spices",
   "a collection of old military medals",
+
+  "a collection of engraved gold coins",
+  "a jeweled dagger",
+  "a valuable signet ring",
+  "several pieces of ornate religious jewelry",
+  "a collection of rare gemstones",
+  "an intricately carved ivory figurine",
+  "a beautifully decorated vase",
+  "a collection of valuable maps",
+  "a set of ancient ceremonial objects",
+  "a bundle of rare fabrics",
+  "a collection of valuable paintings",
+  "several unusual coins from an unknown kingdom",
+  "a finely crafted crown",
+  "a collection of historical documents",
+  "a valuable collection of antique weapons",
 ];
 
 export const treasureDetails = [
@@ -40,4 +67,20 @@ export const treasureDetails = [
   "The valuables were hidden beneath a layer of ordinary objects.",
   "The collection includes something that may have belonged to a famous historical figure.",
   "Everything appears legitimate at first glance.",
+
+  "One item appears to have been deliberately damaged.",
+  "A small piece of paper identifies the original owner.",
+  "The treasure appears to have been hidden in a hurry.",
+  "One object is clearly much more valuable than everything else.",
+  "Several items appear to have been stolen from different people.",
+  "The collection contains an object whose purpose is unclear.",
+  "A symbol appears repeatedly among the valuables.",
+  "The treasure is accompanied by an old inventory list.",
+  "One item appears to be a convincing forgery.",
+  "The collection seems to have belonged to someone who traveled extensively.",
+  "A faint smell of incense clings to several objects.",
+  "One piece bears a date from many years ago.",
+  "The treasure appears untouched despite its age.",
+  "Someone has carefully removed identifying marks from several objects.",
+  "The collection may be worth more to a historian than a merchant.",
 ];

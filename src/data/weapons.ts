@@ -11,9 +11,20 @@ export const weaponTypes = [
   "scimitar",
   "greatsword",
   "bow",
-  "crossbow",
-  "staff",
+  "heavy crossbow",
+  "light crossbow",
   "flail",
+
+  "greataxe",
+  "glaive",
+  "morningstar",
+  "pike",
+  "whip",
+  "club",
+  "quarterstaff",
+  "handaxe",
+  "javelin",
+  "sling",
 ];
 
 export const weaponAppearances = [
@@ -29,6 +40,20 @@ export const weaponAppearances = [
   "with an unusually ornate hilt",
   "showing signs of having been repaired many times",
   "that appears completely ordinary at first glance",
+
+  "with a weathered wooden handle covered in carved symbols",
+  "decorated with a small brass raven",
+  "with a blade that appears slightly translucent",
+  "covered in scratches from countless battles",
+  "with a grip wrapped in unusually fine leather",
+  "bearing several names carved into the handle",
+  "with a polished surface that never seems to collect dust",
+  "decorated with a faded noble crest",
+  "made from a metal that does not match any familiar alloy",
+  "with a small chain attached to the hilt",
+  "covered in faded inscriptions in an unknown language",
+  "with a strangely familiar design",
+  "that looks ancient despite being perfectly preserved",
 ];
 
 export const weaponProperties = [
@@ -44,4 +69,18 @@ export const weaponProperties = [
   "it occasionally whispers a single word",
   "it seems to recognize its previous wielder",
   "it cannot be stained by blood",
+
+  "it becomes slightly heavier when pointed toward danger",
+  "it produces a faint glow when drawn at night",
+  "it seems to resist being carried by anyone with malicious intentions",
+  "it becomes perfectly still when held near a particular location",
+  "it occasionally reveals faint writing along its surface",
+  "it seems to react to another weapon nearby",
+  "it has a faint scent associated with an unknown place",
+  "it never seems to rust or corrode",
+  "it occasionally rings when someone nearby speaks a particular name",
+  "it feels unusually cold after being used",
+  "it seems to remember the last person who wielded it",
+  "it occasionally moves slightly when left unattended",
+  "it appears to have been made for a purpose that no one can identify",
 ];

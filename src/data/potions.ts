@@ -11,6 +11,15 @@ export const potionAppearances = [
   "a glowing orange liquid",
   "a cloudy white liquid",
   "a black liquid with tiny points of light",
+
+  "a deep violet liquid with a faint mist above it",
+  "a pale green liquid containing tiny floating leaves",
+  "a dark blue liquid that seems to contain tiny stars",
+  "a milky liquid that sparkles when moved",
+  "a bronze-colored liquid that moves like liquid metal",
+  "a translucent liquid with a faint golden glow",
+  "a colorless liquid that seems to distort whatever is behind it",
+  "a deep red liquid that slowly pulses like a heartbeat",
 ];
 
 export const potionEffects = [
@@ -26,6 +35,15 @@ export const potionEffects = [
   "causes the drinker's voice to carry unusually far",
   "allows the drinker to briefly see through solid objects",
   "makes the drinker unusually lucky for a short time",
+
+  "allows the drinker to hold their breath for an unusually long time",
+  "makes the drinker's body unusually light for a short time",
+  "allows the drinker to see clearly through fog and smoke",
+  "makes the drinker's skin resistant to minor cuts and scrapes",
+  "allows the drinker to move through difficult terrain more easily",
+  "allows the drinker to briefly communicate through a shared thought with another willing creature",
+  "makes the drinker immune to ordinary nausea and motion sickness",
+  "allows the drinker to detect nearby sources of fresh water",
 ];
 
 export const potionQuirks = [
@@ -39,4 +57,15 @@ export const potionQuirks = [
   "The bottle makes a faint ringing sound when opened.",
   "The liquid briefly changes color when exposed to sunlight.",
   "The bottle appears much older than the potion inside it.",
+
+  "The liquid briefly reflects a different color than it actually is.",
+  "The bottle has no visible seam or opening.",
+  "A faint scent of rain surrounds the bottle.",
+  "The liquid becomes perfectly still whenever someone touches it.",
+  "The bottle bears the initials of an unknown person.",
+  "The potion produces a faint musical note when poured.",
+  "The liquid appears to contain tiny moving shapes.",
+  "The bottle becomes noticeably heavier when held by someone who has lied recently.",
+  "The potion leaves behind a faint taste that lasts for several hours.",
+  "The bottle has a small symbol that seems to move when nobody is watching.",
 ];

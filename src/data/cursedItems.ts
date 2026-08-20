@@ -11,6 +11,15 @@ export const cursedItemTypes = [
   "shield",
   "mask",
   "lantern",
+
+  "dagger",
+  "helm",
+  "bracelet",
+  "brooch",
+  "belt",
+  "staff",
+  "book",
+  "coin",
 ];
 
 export const cursedItemBenefits = [
@@ -24,6 +33,17 @@ export const cursedItemBenefits = [
   "makes the bearer unusually difficult to track",
   "allows the bearer to communicate with a particular type of creature",
   "grants the bearer brief flashes of supernatural insight",
+
+  "allows the bearer to sense when someone nearby is lying",
+  "makes the bearer unusually resistant to fear",
+  "allows the bearer to briefly move without making a sound",
+  "helps the bearer find hidden objects nearby",
+  "allows the bearer to remember everything they have seen recently",
+  "makes the bearer unusually resistant to cold or heat",
+  "allows the bearer to briefly see things that are normally invisible",
+  "makes the bearer unusually fortunate in moments of danger",
+  "allows the bearer to recognize the direction of a place they have previously visited",
+  "grants the bearer brief glimpses of possible future events",
 ];
 
 export const curses = [
@@ -39,4 +59,17 @@ export const curses = [
   "but removing the item causes the bearer to forget something important",
   "but the item's power comes at an unexpected personal cost",
   "but it seems to be waiting for something to happen",
+
+  "but the bearer begins having recurring dreams about an unknown place",
+  "but the item becomes strangely protective of its owner",
+  "but the bearer occasionally remembers events that never happened to them",
+  "but the item reacts violently to a particular symbol or name",
+  "but people who have seen the item before seem strangely afraid of it",
+  "but the bearer begins feeling compelled to return to a particular location",
+  "but the item's influence becomes stronger each time its power is used",
+  "but the bearer begins attracting the attention of something unseen",
+  "but the item seems to recognize people the bearer has never met",
+  "but the bearer slowly develops an unexplained connection to the item's previous owner",
+  "but the item occasionally reveals secrets that the bearer was not meant to know",
+  "but destroying the item may have consequences for someone other than its owner",
 ];

@@ -19,6 +19,27 @@ export const magicItemTypes = [
   "bell",
   "key",
   "stone",
+
+  "crown",
+  "mask",
+  "dagger",
+  "sword",
+  "shield",
+  "staff",
+  "wand",
+  "orb",
+  "goblet",
+  "charm",
+  "locket",
+  "feather",
+  "coin",
+  "dice",
+  "map",
+  "journal",
+  "scroll",
+  "vial",
+  "medallion",
+  "figurine",
 ];
 
 export const magicItemAppearances = [
@@ -37,6 +58,22 @@ export const magicItemAppearances = [
   "made from an unusually pale material",
   "decorated with an ancient symbol",
   "completely ordinary at first glance",
+
+  "covered in faintly glowing cracks",
+  "made from a material that resembles polished bone",
+  "decorated with tiny bells that never make a sound",
+  "etched with the names of unfamiliar people",
+  "set with a gemstone that seems to contain moving shadows",
+  "covered in delicate golden chains",
+  "marked with a symbol that seems familiar but cannot be identified",
+  "made from several different materials fused together",
+  "decorated with a tiny silver key",
+  "covered in writing that changes when viewed from different angles",
+  "surrounded by a faint mist",
+  "perfectly preserved despite appearing extremely old",
+  "decorated with a miniature animal carved in remarkable detail",
+  "made from translucent material",
+  "appears slightly different every time it is examined",
 ];
 
 export const magicItemPowers = [
@@ -55,6 +92,22 @@ export const magicItemPowers = [
   "can reveal a hidden doorway when placed against a wall",
   "allows the bearer to hear distant sounds for a few moments",
   "never becomes dirty or wet",
+
+  "allows the bearer to leave a faint magical mark that only they can see",
+  "reveals the direction of the nearest road when activated",
+  "can preserve a small amount of food indefinitely",
+  "allows the bearer to communicate briefly with a creature they can see",
+  "causes a nearby object to glow when it is touched",
+  "allows the bearer to remember a conversation perfectly",
+  "can briefly silence the object it touches",
+  "reveals whether an object has been recently handled",
+  "allows the bearer to sense nearby doors and passages",
+  "can create a harmless illusion lasting a few moments",
+  "allows the bearer to always know which direction is north",
+  "briefly reveals hidden writing",
+  "can extinguish a small flame with a whispered command",
+  "allows the bearer to sense when they are being watched",
+  "can replay a sound that occurred nearby within the last hour",
 ];
 
 export const magicItemLimitations = [
@@ -70,4 +123,19 @@ export const magicItemLimitations = [
   "It occasionally activates without being touched.",
   "It works perfectly, but no one knows who created it.",
   "It becomes noticeably heavier around undead.",
+
+  "Its magic sometimes produces an unexpected harmless side effect.",
+  "It becomes inactive when taken outside the region where it was created.",
+  "It seems to recognize people who have never seen it before.",
+  "It occasionally displays memories belonging to its previous owner.",
+  "It reacts strongly to a particular type of magic.",
+  "Its power becomes stronger when its owner is in danger.",
+  "It cannot be used by someone who does not know its true name.",
+  "It occasionally points toward something that cannot be seen.",
+  "Its magic becomes unreliable during storms.",
+  "It seems to dislike being separated from its owner.",
+  "Someone or something appears to be searching for it.",
+  "Its original purpose is very different from what its current power suggests.",
+  "It carries a faint trace of magic even when its power is inactive.",
+  "Its power has a hidden cost that the owner has not yet discovered.",
 ];
