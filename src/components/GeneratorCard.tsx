@@ -12,34 +12,48 @@ export default function GeneratorCard({
   generate,
 }: GeneratorCardProps) {
   const [result, setResult] = useState<string | null>(null);
+  const [rolling, setRolling] = useState(false);
 
   function handleGenerate() {
-    setResult(generate());
+    if (rolling) return;
+
+    setRolling(true);
+    setResult(null);
+
+    window.setTimeout(() => {
+      setResult(generate());
+      setRolling(false);
+    }, 500);
   }
 
   return (
-    <button
-      type="button"
-      onClick={handleGenerate}
-      className="group w-full rounded-lg border border-border bg-surface px-5 py-4 text-left transition-all duration-200 hover:-translate-y-0.5 hover:border-border-strong hover:bg-surface-hover hover:shadow-sm"
-    >
-      <div className="flex items-center justify-between gap-4">
-        <span className="font-display text-xl font-semibold text-foreground transition-colors group-hover:text-accent">
-          {name}
-        </span>
+    <div>
+      <button
+        type="button"
+        onClick={handleGenerate}
+        disabled={rolling}
+        className="group w-full rounded-lg border border-border bg-surface px-5 py-4 text-left transition-all duration-200 hover:-translate-y-0.5 hover:border-border-strong hover:bg-surface-hover hover:shadow-sm disabled:cursor-wait"
+      >
+        <div className="flex items-center justify-between gap-4">
+          <span className="font-display text-xl font-semibold text-foreground transition-colors group-hover:text-accent">
+            {name}
+          </span>
 
-        <span className="text-sm text-muted transition-transform duration-200 group-hover:translate-x-1 group-hover:text-accent">
-          →
-        </span>
-      </div>
+          <span
+            className={`text-xl text-accent transition-transform duration-200 ${
+              rolling ? "animate-spin" : "group-hover:rotate-12"
+            }`}
+          >
+            ⚄
+          </span>
+        </div>
+      </button>
 
       {result && (
-        <div className="mt-4 border-t border-border pt-4">
-          <p className="font-display text-lg font-semibold text-accent">
-            {result}
-          </p>
+        <div className="mt-2 px-5 py-3 text-center font-display text-lg text-foreground animate-in fade-in slide-in-from-top-1 duration-300">
+          {result}
         </div>
       )}
-    </button>
+    </div>
   );
 }
