@@ -17,8 +17,22 @@ export const urbanSubjects = [
   "a pair of rival merchants",
   "a city official",
   "a masked stranger",
-];
 
+  "a group of dockworkers",
+  "a local guild representative",
+  "a wealthy merchant",
+  "a nervous witness",
+  "a pair of off-duty guards",
+  "a traveling performer",
+  "a local investigator",
+  "a group of apprentices",
+  "a foreign diplomat",
+  "a desperate gambler",
+  "a street vendor",
+  "a local gang member",
+  "a visiting noble",
+  "a city messenger",
+];
 export const urbanSituations = [
   "causing a disturbance in the street",
   "arguing with someone in the middle of a crowded market",
@@ -34,6 +48,23 @@ export const urbanSituations = [
   "distributing strange pamphlets",
   "attempting to gain access to a restricted building",
   "arguing over ownership of an unusual object",
+
+  "attempting to recover something that was stolen",
+  "waiting outside a locked building",
+  "trying to convince someone of their innocence",
+  "searching for a missing person",
+  "attempting to secretly pass something to another person",
+  "gathering people around a strange discovery",
+  "trying to escape through a crowded street",
+  "watching a particular building",
+  "attempting to hire someone discreetly",
+  "arguing over an unpaid debt",
+  "trying to identify someone in the crowd",
+  "attempting to enter a private event",
+  "looking for someone who has been following them",
+  "trying to convince the city guard to take them seriously",
+  "investigating something unusual in a public place",
+  "attempting to quietly leave town",
 ];
 
 export const urbanDevelopments = [
@@ -49,4 +80,17 @@ export const urbanDevelopments = [
   "The characters notice someone attempting to leave the area.",
   "The situation suddenly escalates.",
   "The people involved seem to know more than they are willing to admit.",
+
+  "Someone in the crowd claims to know what really happened.",
+  "The characters are offered conflicting versions of the story.",
+  "A valuable opportunity is hidden within the confusion.",
+  "The incident is connected to a local faction.",
+  "Someone tries to convince the characters not to get involved.",
+  "The person causing the disturbance has a legitimate reason for doing so.",
+  "The characters discover that the incident was deliberately staged.",
+  "Someone nearby has evidence that could change the situation.",
+  "The city guard arrives with instructions that seem unusual.",
+  "A seemingly unrelated event occurs at the same time.",
+  "The people involved suddenly recognize one another.",
+  "Someone tries to recruit the characters into the situation.",
 ];
