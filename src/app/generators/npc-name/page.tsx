@@ -1,21 +1,13 @@
 "use client";
 
 import GeneratorPage from "@/components/GeneratorPage";
-import { npcFirstNames, npcLastNames } from "@/data/npcNames";
-import { randomItem } from "@/lib/generators";
-
-function generateNPCName() {
-  const firstName = randomItem(npcFirstNames);
-  const lastName = randomItem(npcLastNames);
-
-  return `${firstName} ${lastName}`;
-}
+import { generatorFunctions } from "@/lib/generatorRegistry";
 
 export default function NPCNameGenerator() {
   return (
     <GeneratorPage
       title="NPC Name"
-      generate={generateNPCName}
+      generate={generatorFunctions["npc-name"]}
     />
   );
 }
