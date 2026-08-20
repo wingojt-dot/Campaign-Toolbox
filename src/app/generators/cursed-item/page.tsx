@@ -13,7 +13,7 @@ function generateCursedItem() {
   const benefit = randomItem(cursedItemBenefits);
   const curse = randomItem(curses);
 
-  return `A ${type} that ${benefit}, ${curse}.`;
+  return `${type} that ${benefit}, ${curse}.`;
 }
 
 export default function CursedItemGenerator() {

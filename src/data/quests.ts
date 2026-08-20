@@ -1,16 +1,16 @@
 export const questObjectives = [
-  "recover",
-  "find",
-  "rescue",
-  "escort",
-  "investigate",
-  "protect",
-  "destroy",
-  "deliver",
-  "retrieve",
-  "capture",
-  "expose",
-  "recover stolen",
+  "Recover",
+  "Find",
+  "Rescue",
+  "Escort",
+  "Investigate",
+  "Protect",
+  "Destroy",
+  "Deliver",
+  "Retrieve",
+  "Capture",
+  "Expose",
+  
 ];
 
 export const questTargets = [
